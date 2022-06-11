@@ -1,5 +1,5 @@
 public struct SwiftUI_FAB {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "Hello, World!!"
 
     public init() {
     }
