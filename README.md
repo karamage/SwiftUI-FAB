@@ -6,7 +6,7 @@
 
 Floating Action Button(FAB) with SwiftUI.
 
-<img width="385" alt="Screen Shot 2022-06-12 at 11 24 21" src="https://user-images.githubusercontent.com/330715/173212044-c0b4b0b5-4416-4845-824d-f39f6b499ead.png">
+<img src="https://user-images.githubusercontent.com/330715/173220298-6e1795f0-398c-41f4-ab7d-42e449bb0524.gif" width="250" />
 
 ## Install
 
