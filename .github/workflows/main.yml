@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_13.2.app
+
+jobs:
+  build:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: swift build -v
+           -Xswiftc "-sdk"
+           -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`"
+           -Xswiftc "-target"
+           -Xswiftc "x86_64-apple-ios13.0-simulator"
+
+#  test:
+#    runs-on: macOS-latest
+#    steps:
+#    - uses: actions/checkout@v2
+#    - name: Test
+#      run: swift test -v
