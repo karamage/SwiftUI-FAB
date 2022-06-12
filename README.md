@@ -16,7 +16,7 @@ https://github.com/karamage/SwiftUI-FAB.git
 ```
 
 ## Usage
-```
+```Swift
 import SwiftUI
 import SwiftUI_FAB
 
